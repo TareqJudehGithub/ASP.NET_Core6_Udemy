@@ -1,0 +1,57 @@
+HTTP
+ - Hypertext Transfer Protocol
+ - HTTP is a set of rules that enables browser (client) to send requests, and enables 
+   servers to send a response.
+ - A browser sends requests to a server on the form of an HTTP request.
+ - The request sent (the HTTP request) follows a set of rules.
+ - In ASP.Net, the client sends a request to the Kestrel server, the Kestrel server
+   in return, forwards that response to the app code, and response back to the client.
+ 
+ - HTTP Responses
+  - HTTP response format:
+    Status code
+    Response Header
+    Empty Line
+    Response Body
+
+   - Kestrel server prepares a response when a browser sends a request.
+   - HTTP/1.1 200 OK is the HTTP version number or the status code response from the 
+     server. 
+     - HTTP/1.1 is the protocol
+     - 200 is the status code.
+     - OK is the status description.
+
+  - Response Headers
+   - A response Header contains a key: value pairs.
+    - Key: Value
+    - Content-Type:  type of request.  (text/html, or could be text/plain, or a file.)
+    - 
+
+   - Response Body
+    - Contains the actual information sent from the browser to the server.
+    - Example:
+        app.MapGet("/", () => "Hello World!!!");
+        - "Hello World!!!" is the response body in the above example.
+        - Usually the response body is a file content.
+
+- Common HTTP status code classes:
+  1xxs – Informational responses: The server is thinking through the request.
+
+  2xxs – Success! The request was successfully completed and the server gave the browser 
+        the expected response.
+
+  3xxs – Redirection: You got redirected somewhere else. The request was received, but 
+        there’s a redirect of some kind.
+
+  4xxs – Client errors: Page not found. The site or page couldn’t be reached. (The request 
+        was made, but the page isn’t valid — this is an error on the website’s side of 
+        the conversation and often appears when a page doesn’t exist on the site.)
+
+  5xxs – Server errors: Failure. A valid request was made by the client but the server 
+        failed to complete the request.
+
+ - For more information: https://moz.com/learn/seo/http-status-codes
+     
+
+
+   

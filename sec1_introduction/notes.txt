@@ -1,0 +1,7 @@
+PropertyGroup
+ - TargetFramework
+   - specifies ASP.Net framework version
+ - Nullable
+  - Provides a warning for any nullable value.
+ - ImplicitUsing
+  - enable: Auto namespace(s). 

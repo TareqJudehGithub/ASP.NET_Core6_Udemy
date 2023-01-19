@@ -1,0 +1,5 @@
+Why ASP.NET Core?
+
+ - No need to reload project, instead use "edit project file".
+ - No need to include new files in the current project. Files are added automatically.
+ 

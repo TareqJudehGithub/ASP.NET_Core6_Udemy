@@ -1,0 +1,27 @@
+Kestrel and other servers
+
+ - ASP.Net requires a server in order to receive requests and send responses.
+ - Kestrel is the default server for ASP.Net applications.
+ - Kestrel acts as both a development and a real application server.
+ - an application server receives requests from the Web (Internet).
+ - In development we use Kestrel server.  
+ - Kestrel does not support load balancing and URL rewriting.
+
+ - In production we use Reverse Proxy servers (IIS, Nginx, or Apache).
+ - IIS receives requests from the Internet, and forward them to Kestrel.
+ - IIS Express is a light version of IIS.
+ - IIS is supported only by Windows.
+ - Nginx and Apache are supported by Linux and Windows OSs.
+
+ - We can simulate the features of Reverse Proxy Servers during development, by
+   using a dummy proxy server called IIS Express.
+ - IIS Express simulates IIS, and acts as a proxy server, which can receive a 
+   request and forward it to Kestrel.
+ - Both IIS and IIS Express are supported by Windows OS only.
+
+ -  We can start the Kestrel server by running command: $ dotnet run 
+    in the Terminal.
+
+ - IIS and IISExpress has more advanced features than Kestrel.
+
+

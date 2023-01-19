@@ -1,0 +1,32 @@
+launchSettings.json file
+
+ - json file a collection of key:values pairs.
+ - profiles
+  - A profile is a collection of settings which enables a particular server to
+    run our application when we start a project.
+  - profile name (key) appears in the Run Project drop down menu in VS tool bar.  
+  
+  - profile name values:
+
+   - "commandName": "Project". This means we are enabling the Kestrel server only.
+   - In case commandName value is "IISExpress", this means we are enabling IIS Express.
+   - We can select between the two above, in VS toolbar Run Project arrow button.
+
+   - "dotnetRunMessages": true 
+     - Enables dotnet CLI commands in Terminal.
+     - Shows relevant dotnet commands in Terminal.
+
+   - "launchBrowser": true,
+     - Launches default Internet browser automatically when project starts.
+
+   - "applicationUrl": "http://localhost:5105",
+     - localhost and port number hosting our project in the browser.
+     - The port number can be any number between range 1024 to 65536.
+
+  - "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+
+     - Environment variables contain the global values that are available across the 
+       the entire application.
+

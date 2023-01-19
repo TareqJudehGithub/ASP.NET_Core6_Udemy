@@ -1,0 +1,18 @@
+What is MVC?
+ - MVC is a software design/development pattern.
+ - MVC is used for building web applications.
+
+What is Razor?
+ - Razor is a programming syntax to combine web pages with C#.
+
+What is Blazor?
+ - Blazor is a framework to build applications with C# and .Net.
+ - Blazor uses razor syntax.
+
+What is Entity Famework Core? EFC
+ - EFC is an object relational mapping (ORM) framework.
+ - ORM connects c# code with database.
+ - EFC enables us to stores C# classes (data) directly in SQL database.
+
+ 
+
