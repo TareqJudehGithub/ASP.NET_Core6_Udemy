@@ -1,0 +1,56 @@
+Response Headers
+  - A response header contains a key-value pairs.
+  - A response header is sent by the server to the client.
+  
+  - A response header contains information about the response it self, like
+    the content type, type of the response, and how it is supposed to be stored
+     and managed in the client.
+  - A response header is not visible to the user.
+  
+  - A response header code should always be on top before the response body.
+  - A response Header object, is a dictionary type (key-value pairs)
+  - Example:
+    // Access the response object header  
+        context.Response.Headers["MyKey"] = "My value";
+  
+  - Key: Value
+    - Keys should not contain any space.
+    - Values can contain spaces.
+    - Key-Value code    :
+        context.Response.Headers["MyKey"] = "My value";
+
+ Response headers information:
+   - Date 
+     - Assigned automatically by the Kestrel server.
+   - Server: Kestrel or IIS..etc.         
+      Server code:
+       context.Response.Headers["Server"] = "Kestrel";
+
+   - Content-Type:  type of request. MIME type of response body. 
+      - (text/html, application/Json, application/xml, or could be text/plain, or a file.)
+        Content-Type code:
+        context.Response.Headers["Content-Type"] = "text/html";
+   - Content-Length
+     - Assigned automatically by the Kestrel server.
+
+   - Cache-Control
+    - Indicates number of seconds that the response can be cached at the browser.
+    - Example: max-age=60
+    - If the values is set to "no-cache", this means the Kestrel server will not save
+      that response in the cache temp memory.
+
+   - Set-Cookie
+      - Enables the browser to store cookie in the browser memory it self.
+
+   - Access-Control-Allow-Origin
+      - Used to enable CORS (Cross-Origin-Resource-Sharing).
+      - Example: ["Access-Control-Allow-Origin"] = "http://www.example.com";
+   
+   - Location
+     - Contains url to redirect
+      ["Location"] = "http://www.example-redirect.com";
+
+      
+   - Response Body syntax
+        await context.Response.WriteAsync("<h1>My very first ASP.Net server!</h1>");
+        await context.Response.WriteAsync("<h2>Hello world!</h2>");

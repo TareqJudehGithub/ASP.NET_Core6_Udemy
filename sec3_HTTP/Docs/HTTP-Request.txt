@@ -1,0 +1,19 @@
+HTTP Request
+ - HTTP request is a a message sent from the browser to the server.
+ - HTTP Request format:
+    Start Line
+     - Method UrL HTTP/version
+       - The request method represents the type of the request (get,post, put, or 
+         delete request).
+       - Url locates the information on the server the client is trying to access.  
+       - HTTP default version is HTTP/1.1       
+   
+    Request Header
+     - See file ResponseHeaders.txt
+    
+    Empty Line
+   
+    Request Body
+      - Empty in case the request method was GET.
+      - In case the request method was POST, the Request Body contains the actual 
+      information the user(browser) has requested.

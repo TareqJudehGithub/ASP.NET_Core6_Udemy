@@ -1,0 +1,16 @@
+#region
+ - #region is used to organize type members to be more readable.
+    Example
+    #region Type members
+    // code
+    #endregion
+
+HttpContext
+ - A type of object that is created automatically upon receiving a request from the 
+   client.
+ - When the client sends a request to Kestrel server, the Kestrel server forwards that
+   request to the ASP.Net app. The app in return creates an HttpContext object.
+ - The object contains information related to the client request, response, and other
+   details.   
+ 
+   
