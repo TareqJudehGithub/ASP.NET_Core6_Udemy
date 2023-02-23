@@ -1,0 +1,16 @@
+Services for Middleware(s)
+ - builder.Services property
+  - An Iservice collection type which can hold the list of services
+    which can participate in the Dependency Injection.
+
+  // in order to access CustomMiddleware.cs class
+  namespace Middlewares.CustomMiddlware;   
+  
+  #region Services
+  // register CustomMiddleware class as middleware service
+    builder.Services.AddTransient<CustomMiddleware>(); 
+  #endregion   
+  - This will enable to create an object from CustomMiddleware class.
+  - The class CustomMiddleware is now ready to be instantiated whenever 
+    needed.
+

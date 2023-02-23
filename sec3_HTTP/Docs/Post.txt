@@ -1,0 +1,3 @@
+Post HTTP request
+ - A post request is when users sends information to the server.
+ - A get request is when users retrieve (ask for) information from the server.

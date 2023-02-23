@@ -1,10 +1,3 @@
-#region
- - #region is used to organize type members to be more readable.
-    Example
-    #region Type members
-    // code
-    #endregion
-
 HttpContext
  - A type of object that is created automatically upon receiving a request from the 
    client.

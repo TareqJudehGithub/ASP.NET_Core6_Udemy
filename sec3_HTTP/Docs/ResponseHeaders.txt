@@ -16,14 +16,14 @@ Response Headers
   - Key: Value
     - Keys should not contain any space.
     - Values can contain spaces.
-    - Key-Value code    :
+    - Key-Value code:
         context.Response.Headers["MyKey"] = "My value";
 
  Response headers information:
    - Date 
      - Assigned automatically by the Kestrel server.
    - Server: Kestrel or IIS..etc.         
-      Server code:
+      Server code syntax:
        context.Response.Headers["Server"] = "Kestrel";
 
    - Content-Type:  type of request. MIME type of response body. 

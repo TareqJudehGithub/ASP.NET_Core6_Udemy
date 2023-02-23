@@ -26,7 +26,6 @@ app.Run(async (HttpContext context) =>
         await context.Response.WriteAsync($"<p>This is the request Path: {requestPath}</p>");
         await context.Response.WriteAsync($"<p>Response method: {requestMethod}</p>");
         await context.Response.WriteAsync($"<p></p>");
-
     }
     else
     {
@@ -38,8 +37,6 @@ app.Run(async (HttpContext context) =>
     #region Middleware(s)
     app.MapGet("/", () => "Hello World!!!");
     #endregion
-
-
 });
 
 app.Run();

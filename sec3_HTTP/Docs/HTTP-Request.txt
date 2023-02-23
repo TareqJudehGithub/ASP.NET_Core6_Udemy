@@ -16,4 +16,4 @@ HTTP Request
     Request Body
       - Empty in case the request method was GET.
       - In case the request method was POST, the Request Body contains the actual 
-      information the user(browser) has requested.
+        information the user(browser) has requested.

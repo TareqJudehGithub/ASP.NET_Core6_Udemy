@@ -1,0 +1,13 @@
+Middleware(s)
+ - A middleware is component that is assembled into the application pipeline to handle
+   requests and responses.
+ - Middleware(s) are chained one-after-other and execute in the same sequence
+   they're added in (top to bottom).
+ - Each middleware perform a single action/operation, applying the single responsibility
+   principle.
+ - The purpose/goal of middleware(s), is that each middleware can perform
+   individual single responsibility.  
+ - Middleware(s) takes two shapes:
+  - A request delegate (anonymous method or a lambda expression).
+  - The middleware can also be a class.
+

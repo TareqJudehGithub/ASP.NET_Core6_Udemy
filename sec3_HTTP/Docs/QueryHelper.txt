@@ -1,0 +1,8 @@
+QueryHelpers
+ - A QueryHelpers is class from namespace Microsoft.AspNetCore.WebUtilities.
+ - QueryHelpers.ParseQuery converts query strings into a dictionary key-value pairs
+   object.
+ - Example:
+   Convert query string to dictionary 
+    using Microsoft.Extensions.Primitives;
+     Dictionary<convertFromType, ConvertToType> varName = QueryHelpers.ParseQuery(queryStringBody)

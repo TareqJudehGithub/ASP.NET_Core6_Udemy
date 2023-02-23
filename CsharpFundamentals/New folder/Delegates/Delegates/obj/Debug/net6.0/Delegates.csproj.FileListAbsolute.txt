@@ -1,0 +1,15 @@
+E:\web\ASP_NET\Harsha\ASP.NET_Harsha\CsharpFundamentals\New folder\Delegates\Delegates\bin\Debug\net6.0\Delegates.exe
+E:\web\ASP_NET\Harsha\ASP.NET_Harsha\CsharpFundamentals\New folder\Delegates\Delegates\bin\Debug\net6.0\Delegates.deps.json
+E:\web\ASP_NET\Harsha\ASP.NET_Harsha\CsharpFundamentals\New folder\Delegates\Delegates\bin\Debug\net6.0\Delegates.runtimeconfig.json
+E:\web\ASP_NET\Harsha\ASP.NET_Harsha\CsharpFundamentals\New folder\Delegates\Delegates\bin\Debug\net6.0\Delegates.dll
+E:\web\ASP_NET\Harsha\ASP.NET_Harsha\CsharpFundamentals\New folder\Delegates\Delegates\bin\Debug\net6.0\Delegates.pdb
+E:\web\ASP_NET\Harsha\ASP.NET_Harsha\CsharpFundamentals\New folder\Delegates\Delegates\obj\Debug\net6.0\Delegates.csproj.AssemblyReference.cache
+E:\web\ASP_NET\Harsha\ASP.NET_Harsha\CsharpFundamentals\New folder\Delegates\Delegates\obj\Debug\net6.0\Delegates.GeneratedMSBuildEditorConfig.editorconfig
+E:\web\ASP_NET\Harsha\ASP.NET_Harsha\CsharpFundamentals\New folder\Delegates\Delegates\obj\Debug\net6.0\Delegates.AssemblyInfoInputs.cache
+E:\web\ASP_NET\Harsha\ASP.NET_Harsha\CsharpFundamentals\New folder\Delegates\Delegates\obj\Debug\net6.0\Delegates.AssemblyInfo.cs
+E:\web\ASP_NET\Harsha\ASP.NET_Harsha\CsharpFundamentals\New folder\Delegates\Delegates\obj\Debug\net6.0\Delegates.csproj.CoreCompileInputs.cache
+E:\web\ASP_NET\Harsha\ASP.NET_Harsha\CsharpFundamentals\New folder\Delegates\Delegates\obj\Debug\net6.0\Delegates.dll
+E:\web\ASP_NET\Harsha\ASP.NET_Harsha\CsharpFundamentals\New folder\Delegates\Delegates\obj\Debug\net6.0\refint\Delegates.dll
+E:\web\ASP_NET\Harsha\ASP.NET_Harsha\CsharpFundamentals\New folder\Delegates\Delegates\obj\Debug\net6.0\Delegates.pdb
+E:\web\ASP_NET\Harsha\ASP.NET_Harsha\CsharpFundamentals\New folder\Delegates\Delegates\obj\Debug\net6.0\Delegates.genruntimeconfig.cache
+E:\web\ASP_NET\Harsha\ASP.NET_Harsha\CsharpFundamentals\New folder\Delegates\Delegates\obj\Debug\net6.0\ref\Delegates.dll

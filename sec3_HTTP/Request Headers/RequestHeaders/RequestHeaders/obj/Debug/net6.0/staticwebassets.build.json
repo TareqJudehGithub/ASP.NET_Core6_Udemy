@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "1eOkINIZQza11nGDKnaHmdKGGYSY89oXmO+Y7waTHSw=",
+  "Source": "RequestHeaders",
+  "BasePath": "_content/RequestHeaders",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

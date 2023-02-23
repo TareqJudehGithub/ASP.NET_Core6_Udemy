@@ -1,0 +1,7 @@
+Request body
+ - The request body content are all included in the Request object inside the Body 
+   property.
+ - Example:   context.Request.Body;
+ - The Body property is in a Stream format (Stream reader class).
+
+ 

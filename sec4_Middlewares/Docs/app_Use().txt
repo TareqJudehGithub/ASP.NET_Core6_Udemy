@@ -1,0 +1,19 @@
+app.Use() middleware /Middleware(s) Chain
+ - app.Use() can forward request and responses to subsequent middleware(S).
+ - app.Use() can also terminate/short-use execute a middleware.
+
+ - app.Use() receives two parameters
+  - The first parameter contains the HTTP content (request/response).
+  - The 2nd parameter is a request delegate, which represents the subsequent middleware
+    which the request/response will be forwarded to (the next middleware in order).
+    
+  app.Use(async (HttpContext context, requestDelegate next) => {
+      await context.Response.WriteAsync("");
+      await next(context) // In order to pass/forward, both parameters
+                             in HttpContext & requestDelegate must match.      
+  });
+ 
+  app.Run(async(HttpContext context) => {
+      await context.Response.WriteAsync("app.Run() middleware");
+  });
+

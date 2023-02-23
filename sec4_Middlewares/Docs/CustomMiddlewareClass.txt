@@ -1,0 +1,20 @@
+Custom Middleware Class
+
+- For large projects, it is better practice to keep all middleware(s) in 
+  a separate file(custom class).
+- The middleware class has to implement an interface called IMiddleware
+  in order to indicate that, this class is a middleware.
+
+      class MiddlewareClassName : IMiddleware
+      {
+        public async Task InvokeAsync(HttpContext context, requestDelegate next)
+        {
+          //before logic
+          await next(context);
+
+          //after logic          
+        }
+      }
+
+      Rain fall down! Wash away my yesterdays..
+

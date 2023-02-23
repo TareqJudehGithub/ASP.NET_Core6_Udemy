@@ -1,0 +1,11 @@
+Lambda Expressions
+ - Introduced in C# v3.0
+ - Lambda expression is an anonymous method, but offers more convenient syntax. 
+ - Lambda expressions can be invoked using the delegate variable or an event, much
+   like anonymous methods.
+ - Lambda expression uses the arrow (=>) operator, thats why it is called a Lambda
+   expression.
+ -  Lambda expression can have parameters and local variables.
+ - Lambda expression can return a value.
+ - Lambda expression will not have any name.
+

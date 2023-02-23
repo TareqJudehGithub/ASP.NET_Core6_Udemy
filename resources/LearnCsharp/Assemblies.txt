@@ -1,0 +1,11 @@
+Assemblies
+ - An assembly is a collection of types and resources that are built to 
+   work together and form a logical unit of functionality.
+ - An assembly is a fundamental unit of deployment.
+ - An assembly is an executable or a library that is run at the end of the day
+   when the development process of your application is finished.  
+ 
+ - In the Publish folder, an executable will be created:
+  - For console applications, an EXE file will be published.
+  - For a .Net application, a DLL (class library) file will `be published.
+  

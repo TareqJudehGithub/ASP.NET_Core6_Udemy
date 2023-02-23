@@ -1,0 +1,31 @@
+Request Headers
+
+ - Key value-pairs sent by the browser to the server.
+ - Request headers are information the server.
+ - Request headers are a way on how to browser talks (contacts) the server.
+ - For example: the browser send a request to the server to receive a page in English.
+ - The browser specifies and is responsible for what type of information is sent to the 
+   server. For example the data or content-type.   
+ 
+ - Request header is available for both GET and POST requests.
+
+
+ - Commonly observed request headers 
+    - Accept
+      - Represents MIME type of response content to be accepted by the client.
+        Example:  accept=text/html. meaning the browser is requesting from the 
+        server a response in an HTML format.
+    
+    - Accept-Language
+      - Represents natural Language of response content to be accepted by the 
+        client.  
+        Example: en-US
+    
+    - User-Agent
+      - Determines the user (browser type, OS, and other user hardware information) 
+    
+    - Cookies
+      - Cookies sent to the server.
+    - Content-Type
+      - MIME type of request body.    
+

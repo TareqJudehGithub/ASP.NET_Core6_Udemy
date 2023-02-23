@@ -1,0 +1,10 @@
+app.Run() middleware
+ - app.Run() is used to execute a terminating/short-circuiting middleware that doesn't
+   forward the request to the next middleware (cannot use next() method).
+   Thats why we can't have two app.Run()
+   middleware(s); only one of them will be executed (the one on top).
+ 
+ - App.Run() middleware does not forward requests to the subsequent appRun() 
+   middleware(s).   
+ - Forwarding middleware(s) requests can be optional. For that we can use 
+   app.Use().

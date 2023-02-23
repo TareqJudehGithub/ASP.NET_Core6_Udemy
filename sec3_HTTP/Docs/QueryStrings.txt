@@ -1,0 +1,18 @@
+Query String
+ - Query string is syntax where we can send parameter values from the browser 
+   to the server.
+ - Query strings and routing are ways to receive argument values sent from the browser
+   to the server.
+   Example: GET /dashboard?id=1 HTTP/1.1   
+   Host: www.website.com
+   Accept: text/html
+
+    - id=1 is the query string
+    - a question mark ? separates the request URL path (/dashboard) and the query string.
+    - A query string is usually attached to the URL in GET requests only.
+
+    - & in the url separates query string values pairs.
+      localhost:5000/?id=001&name=john&age=47
+    
+
+  
